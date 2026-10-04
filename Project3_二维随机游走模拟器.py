@@ -9,7 +9,7 @@
 """
 import numpy as np
 #1.定义方向：上下左右
-directions = np.array([[0,1],[0,-1],[-1,0],[0,1]])
+directions = np.array([[0,1],[0,-1],[-1,0],[1,0]])
 
 #2.随机生成1000步，也就是在directions数组里选择1000次
 np.random.seed(0)
